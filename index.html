@@ -17,15 +17,86 @@
             <li>No sé</li>
         </ul>
 
-        <input> 
-        <textarea cols="30" rows="10">Acá puede ir un comentario -algo más largo que en el input-</textarea>
-
         <button>Hola botón</button>
+        <br>
+        <br>
 
+        <input type="password" maxlength="10" placeholder="Password">
+
+        
         <br>
         <br>
             
-        <div style="background-color: coral;">
+        <form action="miformulario.com/form">
+            <h2>Formulario de contacto</h2>
+            <input type="hidden" name="id" value="123">
+
+            <label>
+                Nombre del gato
+                 <input type="text" name="nombre" id="cat-name">
+            </label>
+            
+            <br>
+            <br>
+            <label>
+                Apellido del gato
+                <input type="text" name="apellido" id="cat-lastname">
+            </label>
+
+            <br>
+            <br>
+
+            <h3>Color de la lengua de tu gato</h3>
+
+            <label>
+                <input type="radio" name="tounge_color" value="red"> Rojo
+            </label>
+           
+            <label>
+              <input type="radio" name="tounge_color" value="green"> Verde
+            </label>
+            <br><br>
+            <label>
+                Contextura del gato
+                <br>
+                <select name="doge-fatness">
+                    <option value="flaquito">Flaquito</option>
+                    <option value="maso">Mas o menos</option>
+                    <option value="gordito">Gordito</option>
+                </select>
+            </label>
+            <br><br>
+
+            <label>
+                Foto del perro
+                <input type="file" accept=".jpg,.png,.bmp">                     
+            </label>
+            <br><br>
+            <h3>Tipo de alimento que come el perro</h3>
+            
+            <label>
+                <input type="checkbox" name="comida-balanceada" value="balanceado">
+                Balanceado
+            </label>
+            <br>
+            
+            <label>
+                <input type="checkbox" name="comida-normal" value="normal">
+                Normal
+            </label>            
+            <br>
+            <br>
+            <label>
+                Description
+                <br>
+               <textarea name="cat-description" cols="30" rows="10"></textarea>
+             </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+                <div style="background-color: coral;">
             <a href="google.com">Google</a>
             <br/>
             <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/12/photos-of-indonesia-rarindra-prakarsa-17.jpg" alt="bote flores" />
