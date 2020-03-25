@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <strong>Desafio Formularios</strong>
+    </head>
+    <body>
+        <h1>Formulario de contacto</h1>
+        <form action="hola.com/formulario">
+
+        <h2>Nombre</h2>
+        <input type="text" name="name">
+
+        <h2>Apellido</h2>
+        <input type="text" name="lastname">
+
+        <h2>Edad</h2>
+        <input type="number" min="0" max="99" name="age">
+
+        <h2>Nacionalidad</h2>
+            <select name="Nacionalidad">
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguaya">Uruguaya</option>
+            </select>
+        <br>
+        <h2>Tecnología</h2>
+
+        <label>
+            <input type="checkbox" value="Frontend">
+            Frontend
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" value="Fullstack">
+            Fullstack
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" value="Backend">
+            Backend
+        </label>
+
+        <h2>Sos mayor de edad?</h2>
+
+        <label>
+            <input type="radio" name="Mayor_de_edad" value="Si">
+            Si
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="Mayor_de_edad" value="No">
+            No
+        </label>
+        <br><br><br>
+
+        <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>
