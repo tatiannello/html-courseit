@@ -1,0 +1,32 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+article {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: gray;
+    margin-top: 1.5em;
+}
+
+p {
+    line-height: 1.8em;
+    color: gray;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-bottom: 2em;
+}
+
+span, time {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: gray;
+    font-family: sans-serif;
+    margin-right: 1em;
+    font-style: initial;
+}
