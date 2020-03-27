@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: whitesmoke;
-
+    
 }
 
+.page_title {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #444;
+    text-align: center;
+    margin: 1em 0 0.8em;
+}
 
 .post_article {
     width: 600px;
@@ -12,11 +22,6 @@ body {
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
 }
 
-.page_title {
-    font-size: 3em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: yellowgreen;
-}
 
 .title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -34,7 +39,7 @@ body {
     line-height: 1.8em;
     color: gray;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: "roboto";
     margin-bottom: 2em;
     font-weight: 100;
 }
@@ -45,7 +50,7 @@ body {
     border-bottom: 0;
 }
 
-.author, time.date {
+.author,.date, .n_comments {
     font-size: 0.9em;
     font-weight: bold;
     color: gray;
